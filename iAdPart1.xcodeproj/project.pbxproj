@@ -13,6 +13,8 @@
 		B631C7A91CCCFC1A00E64C15 /* iAdPart1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B631C7A71CCCFC1A00E64C15 /* iAdPart1.xcdatamodeld */; };
 		B631C7AB1CCCFC1A00E64C15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B631C7AA1CCCFC1A00E64C15 /* Assets.xcassets */; };
 		B631C7AE1CCCFC1A00E64C15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B631C7AC1CCCFC1A00E64C15 /* LaunchScreen.storyboard */; };
+		B631C7B71CCCFC3300E64C15 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631C7B51CCCFC3300E64C15 /* AdSupport.framework */; };
+		B631C7B81CCCFC3300E64C15 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B631C7B61CCCFC3300E64C15 /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B631C7AA1CCCFC1A00E64C15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B631C7AD1CCCFC1A00E64C15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B631C7AF1CCCFC1A00E64C15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B631C7B51CCCFC3300E64C15 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		B631C7B61CCCFC3300E64C15 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B631C7B71CCCFC3300E64C15 /* AdSupport.framework in Frameworks */,
+				B631C7B81CCCFC3300E64C15 /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +46,8 @@
 		B631C7941CCCFC1900E64C15 = {
 			isa = PBXGroup;
 			children = (
+				B631C7B51CCCFC3300E64C15 /* AdSupport.framework */,
+				B631C7B61CCCFC3300E64C15 /* iAd.framework */,
 				B631C79F1CCCFC1900E64C15 /* iAdPart1 */,
 				B631C79E1CCCFC1900E64C15 /* Products */,
 			);
